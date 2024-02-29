@@ -4,8 +4,8 @@ import 'package:travel_app/config/config.dart';
 import 'package:travel_app/pages/pages.dart';
 
 void main() {
-  runApp(const MyApp());
   Get.put(SplashController());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
